@@ -14,6 +14,8 @@
 		5E41C5421A4315A800B2592B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E41C5411A4315A800B2592B /* Images.xcassets */; };
 		5E41C5451A4315A800B2592B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E41C5431A4315A800B2592B /* LaunchScreen.xib */; };
 		5E41C5511A4315A800B2592B /* BSBSimulationTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41C5501A4315A800B2592B /* BSBSimulationTestTests.swift */; };
+		5E41C55B1A43191900B2592B /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E41C55A1A43191900B2592B /* SearchTableViewController.swift */; };
+		5E41C55D1A43213A00B2592B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E41C55C1A43213A00B2592B /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		5E41C54A1A4315A800B2592B /* BSBSimulationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSBSimulationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E41C54F1A4315A800B2592B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E41C5501A4315A800B2592B /* BSBSimulationTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSBSimulationTestTests.swift; sourceTree = "<group>"; };
+		5E41C55A1A43191900B2592B /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		5E41C55C1A43213A00B2592B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E41C55D1A43213A00B2592B /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 		5E41C5291A4315A800B2592B = {
 			isa = PBXGroup;
 			children = (
+				5E41C55C1A43213A00B2592B /* CoreData.framework */,
 				5E41C5341A4315A800B2592B /* BSBSimulationTest */,
 				5E41C54D1A4315A800B2592B /* BSBSimulationTestTests */,
 				5E41C5331A4315A800B2592B /* Products */,
@@ -82,6 +88,7 @@
 				5E41C5371A4315A800B2592B /* AppDelegate.swift */,
 				5E41C53C1A4315A800B2592B /* ViewController.swift */,
 				5E41C53E1A4315A800B2592B /* Main.storyboard */,
+				5E41C55A1A43191900B2592B /* SearchTableViewController.swift */,
 				5E41C5411A4315A800B2592B /* Images.xcassets */,
 				5E41C5431A4315A800B2592B /* LaunchScreen.xib */,
 				5E41C5391A4315A800B2592B /* BSBSimulationTest.xcdatamodeld */,
@@ -164,6 +171,7 @@
 				TargetAttributes = {
 					5E41C5311A4315A800B2592B = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = YCL3GF3NW8;
 					};
 					5E41C5491A4315A800B2592B = {
 						CreatedOnToolsVersion = 6.1;
@@ -218,6 +226,7 @@
 				5E41C53D1A4315A800B2592B /* ViewController.swift in Sources */,
 				5E41C53B1A4315A800B2592B /* BSBSimulationTest.xcdatamodeld in Sources */,
 				5E41C5381A4315A800B2592B /* AppDelegate.swift in Sources */,
+				5E41C55B1A43191900B2592B /* SearchTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BSBSimulationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BSBSimulationTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
